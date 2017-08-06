@@ -3,4 +3,12 @@ Files Prior To Python
 
 ~ Below will be a list of files and what they do within the repo ~
 
-#! None Added ~ Check back soon !#
+#! DataPull.py !#
+
+This file pulls data from a raw paste or text document via a website
+USAGE: python DataPull.py https://pastebin.com/raw/E3PXUx5u
+USAGE: python DataPull.py www.example.com/random.txt
+
+WARNING: This should not be used to pull HTML / PHP Documents from a website,
+Although, this is a good idea for a website sourcecode stealer.
+This may be added!
