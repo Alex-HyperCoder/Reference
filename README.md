@@ -14,3 +14,12 @@ USAGE: python DataPull.py www.example.com/random.txt
 WARNING: This should not be used to pull HTML / PHP Documents from a website,
 Although, this is a good idea for a website sourcecode stealer.
 This may be added!
+
+
+#! Unauth.py !#
+
+This file adds a invisable user to the SSH Server
+
+USAGE: python Unauth.py SSH_IP SSH_PORT ROOT_USER ROOT_PASS
+
+WARNING: You must have root access to the server!
