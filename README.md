@@ -6,7 +6,9 @@ Files Prior To Python
 #! DataPull.py !#
 
 This file pulls data from a raw paste or text document via a website
+
 USAGE: python DataPull.py https://pastebin.com/raw/E3PXUx5u
+
 USAGE: python DataPull.py www.example.com/random.txt
 
 WARNING: This should not be used to pull HTML / PHP Documents from a website,
