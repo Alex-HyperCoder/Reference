@@ -20,6 +20,6 @@ This may be added!
 
 This file adds a invisable user to the SSH Server
 
-USAGE: python Unauth.py SSH_IP SSH_PORT ROOT_USER ROOT_PASS
+USAGE: python Unauth.py SSH_IP ROOT_USER ROOT_PASS
 
 WARNING: You must have root access to the server!
