@@ -23,3 +23,12 @@ This file adds a invisable user to the SSH Server
 USAGE: python Unauth.py SSH_IP ROOT_USER ROOT_PASS
 
 WARNING: You must have root access to the server!
+
+
+#! CPU.py !#
+
+This file finds your Kernal Architecture and prints
+
+USAGE: python CPU.py
+
+NOTE: You could just be a loser and copy the command and paste it. But why do that and look cool?
