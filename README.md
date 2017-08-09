@@ -32,3 +32,11 @@ This file finds your Kernal Architecture and prints
 USAGE: python CPU.py
 
 NOTE: You could just be a loser and copy the command and paste it. But why do that and look cool?
+
+
+#! File.py !#
+
+This file is to read and write to a file
+
+USAGE: python File.py read
+USAGE: python File.py write
