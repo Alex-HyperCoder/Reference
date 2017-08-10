@@ -40,3 +40,11 @@ This file is to read and write to a file
 
 USAGE: python File.py read
 USAGE: python File.py write
+
+#! Honeypot.py !#
+
+This file logs any connection connecting to a binded port
+
+USAGE: python Honeypot.py 127.0.0.1 22
+
+NOTE: Change default ssh port to start the honeypot on SSH.
