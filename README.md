@@ -48,3 +48,9 @@ This file logs any connection connecting to a binded port
 USAGE: python Honeypot.py 127.0.0.1 22
 
 NOTE: Change default ssh port to start the honeypot on SSH.
+
+#! Count.py !#
+
+This file counts 1 second and prints 1 second.
+
+USAGE: python Count.py
