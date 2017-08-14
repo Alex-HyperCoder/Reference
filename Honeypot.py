@@ -8,6 +8,7 @@ from thread import *
 
     Author: Mipsel / Sprite
     Date: 7/28/17 - July 28th, 2017.
+    Fixed Indent Errors - August 14th, 2017
     
 
     NOTES:
@@ -117,18 +118,18 @@ def clientthread(conn):
         print(R+" ")
 
 try:
-	while 1:
-	    conn, addr = s.accept()
-	    print 'Host Logged |-| ' + addr[0] + ':' + str(addr[1])
-            honeypot = open("honeypot.log","r")
-            count = 0
-            for line in honeypot:
+    while 1:
+        conn, addr = s.accept()
+        print 'Host Logged |-| ' + addr[0] + ':' + str(addr[1])
+        honeypot = open("honeypot.log","r")
+        count = 0
+        for line in honeypot:
             count+=1
-            honeypot.close()
-	    honeypot = open("honeypot.log","a")
-	    honeypot.write("\r\nLogged: " + addr[0] + " Entry : #%d" % count - 1)
-	    honeypot.truncate()
-	    honeypot.close()
+        honeypot.close()
+        honeypot = open("honeypot.log","a")
+        honeypot.write("\r\nLogged: " + addr[0] + " Entry : #%d" % count - 1)
+        honeypot.truncate()
+        honeypot.close()
 
 	    start_new_thread(clientthread ,(conn,))
 
