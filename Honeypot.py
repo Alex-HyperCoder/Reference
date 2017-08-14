@@ -120,11 +120,11 @@ try:
 	while 1:
 	    conn, addr = s.accept()
 	    print 'Host Logged |-| ' + addr[0] + ':' + str(addr[1])
-        honeypot = open("honeypot.log","r")
-        count = 0
-        for line in honeypot:
+            honeypot = open("honeypot.log","r")
+            count = 0
+            for line in honeypot:
             count+=1
-        honeypot.close()
+            honeypot.close()
 	    honeypot = open("honeypot.log","a")
 	    honeypot.write("\r\nLogged: " + addr[0] + " Entry : #%d" % count - 1)
 	    honeypot.truncate()
