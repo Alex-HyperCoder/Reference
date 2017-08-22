@@ -54,3 +54,9 @@ NOTE: Change default ssh port to start the honeypot on SSH.
 This file counts 1 second and prints 1 second.
 
 USAGE: python Count.py
+
+#! Mirai-MySQL.py !#
+
+This Adds, Deletes, And, Updates Users settings for Mirai.
+
+USAGE: python Mirai-MySQL.py
